@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-size: 2em;
+    color: #fff;
+    background-color: #0f172a;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+.square {
+    width: 6.25%;
+    aspect-ratio: 1 / 1;
+    border: 1px solid black;
+}
